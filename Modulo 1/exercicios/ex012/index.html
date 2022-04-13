@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos em Html 5</title>
+</head>
+<body>
+    <h1>Inserindo videos localmente</h1>
+    <p>este video está hospdedado no meu proprio servidor</p>
+    
+    <video width="500" poster="imagens/Yakuza_Kiwami_2.jpg" controls>
+        <source src="video/Yakuza2Kiwami.mp4" type="video/mp4">
+        <source src="video/Yakuza2Kiwami.avi" type="video/avi">
+        <source src="video/Yakuza2Kiwami.mkv" type="video/mkv">
+        <source src="video/Yakuza2Kiwami.wmv" type="video/wmv">    
+        <p>seu navegador não consegue reproduzir o video</p>
+    </video>
+
+    <p>inserindo videos do youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vqEMbHqqqRU" title="YouTube video player"
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+    <p>incorporando videos da twitch</p>
+    <iframe src="https://player.twitch.tv/?video=1185566397&parent=www.example.com" frameborder="0"
+     allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+</body>
+</html>

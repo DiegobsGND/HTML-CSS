@@ -1,0 +1,6 @@
+Sites para conseguir fontes:
+----------------------------------------------
+google fonts: baixar ou utilizar estilo e copiar link no codigo antes do header ver exercicio18/fonte02
+----------------------------------------------
+dafonts: baixar e criar uma fonte personalizada ver exercicio18/fonte03
+----------------------------------------------

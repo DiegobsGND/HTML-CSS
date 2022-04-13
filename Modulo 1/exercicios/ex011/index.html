@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em Html 5</title>
+</head>
+<body>
+    <h1>Imagen Dinâmica</h1>
+    <p>Tenta abrir este site em dispositivos de diferentes
+        ou apenas aumenta ou diminua a janela do navegador
+    </p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/bayern.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/milan2.jpg" type="image/jpg">
+        <img src="imagens/vasco.jpg" alt="imagen flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Champions podcast</p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audio/champions_podcast6.m4a" type="audio/m4a">
+        <source src="audio/A World Away.mp3" type="audio/mp3">
+
+        <p>essa porra de navegador não consegue reproduzir o audio
+        <a href="audio/champions podcast 6.m4a">clique aqui</a> paraa baixar o podcast</p>
+    </audio>
+
+</body>
+</html>
